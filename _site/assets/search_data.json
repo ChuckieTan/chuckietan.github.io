@@ -1,0 +1,92 @@
+
+
+[
+  
+  
+    {
+      "title"    : "页面没有找到",
+      "url"      : "http://localhost:4000/404.html",
+      "keywords" : "404"
+    } ,
+  
+  
+  
+    {
+      "title"    : "About",
+      "url"      : "http://localhost:4000/about/",
+      "keywords" : "Chuckie Tan"
+    } ,
+  
+  
+  
+    {
+      "title"    : "归档",
+      "url"      : "http://localhost:4000/archives/",
+      "keywords" : "归档"
+    } ,
+  
+  
+  
+    {
+      "title"    : "Categories",
+      "url"      : "http://localhost:4000/categories/",
+      "keywords" : "分类"
+    } ,
+  
+  
+  
+  
+  
+    {
+      "title"    : "Links",
+      "url"      : "http://localhost:4000/links/",
+      "keywords" : "友情链接"
+    } ,
+  
+  
+  
+    {
+      "title"    : "mindmap",
+      "url"      : "http://localhost:4000/mindmap-viewer/",
+      "keywords" : "mindmap"
+    } ,
+  
+  
+  
+    {
+      "title"    : "Open Source Projects",
+      "url"      : "http://localhost:4000/open-source/",
+      "keywords" : "开源,open-source,GitHub,开源项目"
+    } ,
+  
+  
+  
+  
+  
+    {
+      "title"    : "Wiki",
+      "url"      : "http://localhost:4000/wiki/",
+      "keywords" : "维基, Wiki"
+    } ,
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    {
+      "title"    : "Manjaro安装Mariadb",
+      "category" : "数据库",
+      
+      "url"      : "http://localhost:4000/2021/10/23/Manjaro%E5%AE%89%E8%A3%85Mariadb/",
+      "keywords" : "SQL, MySQL, Mariadb, Manjaro, Arch Linux"
+    } 
+  
+]
+
