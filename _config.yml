@@ -5,9 +5,9 @@ baseurl:
 url: https://blog.tangentfly.com
 date_format: "ordinal"
 title: 天一阁
-subtitle: Chuckie Tan 的个人博客
-description: Chuckie Tan 的个人博客
-keywords: ChuckieTan, 天一阁
+subtitle: 聪明的毛毛虫的个人博客
+description: 聪明的毛毛虫的个人博客
+keywords: ChuckieTan, 天一阁, 聪明的毛毛虫
 timezone: Asia/Shanghai
 encoding: "utf-8"
 repository: chuckietan/chuckietan.github.io
