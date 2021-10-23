@@ -5,8 +5,8 @@ baseurl:
 url: https://blog.tangentfly.com
 date_format: "ordinal"
 title: 天一阁
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
+subtitle: Chuckie Tan 的个人博客
+description: Chuckie Tan 的个人博客
 keywords: ChuckieTan, 天一阁
 timezone: Asia/Shanghai
 encoding: "utf-8"
