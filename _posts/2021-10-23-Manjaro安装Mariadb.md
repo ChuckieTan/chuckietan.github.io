@@ -13,7 +13,7 @@ Mariadb是MySQL的一个复刻。由于MySQL被Oracle公司收购，MySQL的一�
 
 ## 安装Mariadb
 
-```
+``` bash
 yay -S mariadb
 # 从官方软件仓库中安装Mariadb
 sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
