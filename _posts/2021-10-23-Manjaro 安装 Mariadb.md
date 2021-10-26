@@ -1,17 +1,19 @@
 ---
 layout: post
-title: Manjaro安装Mariadb
+title: Manjaro 安装 Mariadb
 categories: 数据库
 keywords: SQL, MySQL, Mariadb, Manjaro, Arch Linux
 ---
 
-Mariadb是MySQL的一个复刻。由于MySQL被Oracle公司收购，MySQL的一些原始开发者担心MySQL会有开源方面的某些隐患，故领导开发了Mariadb。
+Mariadb 是 MySQL 的一个复刻。由于 MySQL 被 Oracle 公司收购，MySQL 的一些原始开发者担心 MySQL 会有开源方面的某些隐患，故领导开发了 Mariadb。
 
-如今，Mariadb已经作为许多Linux发行版的默认MySQL实现，在Arch Linux中，MySQL也被从官方软件仓库移入AUR中。
+<!--more-->
 
-在Arch Linux系的Linux上安装软件是一个很方便的事，安装Mariadb也是一样，因为Arch Linux系的软件仓库是所有Linux发行版中最为庞大的，而且还有由社区进行维护的非官方软件仓库AUR，所以安装大部分软件都只是几条命令的事。
+如今，Mariadb 已经作为许多 Linux 发行版的默认 MySQL 实现，在 Arch Linux 中，MySQL 也被从官方软件仓库移入 AUR 中。
 
-## 安装Mariadb
+在 Arch Linux 系的 Linux 上安装软件是一个很方便的事，安装 Mariadb 也是一样，因为 Arch Linux 系的软件仓库是所有 Linux 发行版中最为庞大的，而且还有由社区进行维护的非官方软件仓库 AUR，所以安装大部分软件都只是几条命令的事。
+
+## 安装 Mariadb
 
 ```bash
 yay -S mariadb
@@ -24,7 +26,7 @@ sudo systemctl start mariadb
 # 启动mariadb服务
 ```
 
-这样，Mariadb已经安装完毕。但之后还得进行一些安全性的配置。
+这样，Mariadb 已经安装完毕。但之后还得进行一些安全性的配置。
 
 ## 安全性的配置
 
@@ -32,13 +34,13 @@ sudo systemctl start mariadb
 
 `mysql_secure_installation`会执行下面几个设置：
 
-* 给root用户设置密码
-* 移除匿名用户
-* 禁止root远程登录
-* 移除测试数据库
-* 重新加载特权表使修改生效
+- 给 root 用户设置密码
+- 移除匿名用户
+- 禁止 root 远程登录
+- 移除测试数据库
+- 重新加载特权表使修改生效
 
-这些安全配置非常重要，在生产环境中安装完MySQL或者Mariadb一定要执行一遍`mysql_secure_installation`来保证安全。具体操作如下：
+这些安全配置非常重要，在生产环境中安装完 MySQL 或者 Mariadb 一定要执行一遍`mysql_secure_installation`来保证安全。具体操作如下：
 
 ```
 ➜  ~ sudo mysql_secure_installation
@@ -58,7 +60,7 @@ can log into the MariaDB root user without the proper authorisation.
 
 You already have your root account protected, so you can safely answer 'n'.
 
-Switch to unix_socket authentication [Y/n] 
+Switch to unix_socket authentication [Y/n]
 Enabled successfully!
 Reloading privilege tables..
  ... Success!
@@ -67,8 +69,8 @@ Reloading privilege tables..
 You already have your root account protected, so you can safely answer 'n'.
 
 Change the root password? [Y/n] # 设置root密码
-New password: 
-Re-enter new password: 
+New password:
+Re-enter new password:
 Password updated successfully!
 Reloading privilege tables..
  ... Success!
@@ -113,4 +115,4 @@ installation should now be secure.
 Thanks for using MariaDB!
 ```
 
-至此，Mariadb就安装完成了。
+至此，Mariadb 就安装完成了。
