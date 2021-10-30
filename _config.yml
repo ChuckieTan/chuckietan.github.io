@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://blog.tangentfly.com
+url: https://chuckietan.github.io/
 date_format: "ordinal"
 title: 天一阁
 subtitle: 聪明的毛毛虫的个人博客
